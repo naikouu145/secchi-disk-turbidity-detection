@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --color-algae-50: #eff6f2;
+  --color-algae-100: #d4e7db;
+  --color-algae-200: #a9ceb7;
+  --color-algae-300: #7db593;
+  --color-algae-400: #529c6f;
+  --color-algae-500: #3b7d54;
+  --color-algae-600: #2d5f3f;
+  --color-algae-700: #1f3d29;
+  --color-algae-800: #142619;
+  --color-algae-900: #0a150d;
+
+  --color-forest-50: #f2f9f5;
+  --color-forest-100: #dff0e7;
+  --color-forest-200: #bfe1cf;
+  --color-forest-300: #9fd2b7;
+  --color-forest-400: #74b693;
+  --color-forest-500: #4a9b6f;
+  --color-forest-600: #3a7c59;
+  --color-forest-700: #2b5d43;
+  --color-forest-800: #1d3e2c;
+  --color-forest-900: #0e1f16;
+
+  --color-mint-50: #fafbfa;
+  --color-mint-100: #f5f7f5;
+
+  --color-sage-100: #f0f2f0;
+  --color-sage-200: #e8ede9;
+  --color-sage-300: #d1d9d3;
+
+  --color-moss-400: #8a9b8e;
+  --color-moss-500: #5a6b5e;
+  --color-moss-600: #3d4a41;
+  --color-moss-700: #2a3530;
+  --color-moss-800: #1a231e;
+  --color-moss-900: #0f1e13;
+
+  --font-sans: "Inter", system-ui, -apple-system, sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+
+  --shadow-sm: 0 1px 2px rgba(15, 30, 19, 0.05);
+  --shadow: 0 2px 12px rgba(15, 30, 19, 0.04);
+  --shadow-md: 0 4px 16px rgba(15, 30, 19, 0.08);
+  --shadow-lg: 0 8px 28px rgba(15, 30, 19, 0.12);
+  --shadow-xl: 0 12px 40px rgba(15, 30, 19, 0.15);
+  --shadow-primary: 0 8px 28px rgba(45, 95, 63, 0.35);
+}
+
+:root {
+  font-family: "Inter", system-ui, -apple-system, sans-serif;
+  color: #0f1e13;
+  background: radial-gradient(circle at top left, #f5f7f5, #fafbfa 45%, #eff6f2 100%);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: #fafbfa;
+  color: #0f1e13;
+}
+
+#root {
+  max-width: 1120px;
+  margin: 0 auto;
+  min-height: 100vh;
+}
